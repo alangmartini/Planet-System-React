@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-export default class Title extends Component {
+class Title extends Component {
   render() {
     const { headline } = this.props;
 
@@ -19,4 +19,6 @@ Title.propTypes = {
 
 Title.defaultProps = {
   headline: propTypes.string,
-}
+};
+
+export default Title;
